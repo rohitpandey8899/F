@@ -1,0 +1,327 @@
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+
+<link rel="shortcut icon" type="image/x-icon" href="fci%20new.png">
+
+<link rel="mask-icon" type="" href="fci%20new.png" color="#111">
+
+
+  <title>Foundation Computer Institute</title>
+  
+  
+  
+  
+ <link rel="stylesheet" href="style.css">
+
+
+
+
+	
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  <script src = "scritp.js">
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+<script>
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 3500;	// Time Between Switch
+	 
+// Image List
+images[0] = "banner0.jpg";
+images[1] = "banner1.jpeg";
+images[2] = "banner2.jpeg";
+images[3] = "banner3.jpeg";
+images[4] = "banner4.jpeg";
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+
+</script>
+
+
+</head>
+
+<body translate="no">
+  <div class="uc-wrapper" style="">
+<div class="uc-header" style="font-family: Times New Roman; font-size: 14pt;">
+<div class="uc-header-content">
+<div class="topnav">
+<span><img class="uc-logo" src="fci%20.jpg"></span><div class="topnav-right">
+<a class="get-quote" target="blank"><p class="get-quote"><i class="fas fa-phone-alt"></i><span class="uc-tel">+91 8630522281</span></p>
+<p><i class="fas fa-mobile-alt"></i><span class="uc-tel mobile">+91 9897004153</span></p></a>
+</div>
+</div>
+</div>
+</div>
+
+<img name="slide" width="100%" height="500px" />
+
+<center>
+<br>
+<h2><b>------Welcome To------</b></h2>
+<h1 class="fci">Foundation Computer Institute</h1>
+<h2>Registered by U.P & U. K . Govt.</h2>
+<h3>DIC B/20/16/05/04/63/PMT/7529-30/96-97</h3>
+<br><br><br>
+<h2 style="font-family: Times New Roman; font-size: 35pt; color: #00ffff;"><b>25+</b></h2>
+<h2 style="font-family: Times New Roman; font-size: 20pt; color: #00ffff;"><b>Year Of Educational Experience</b></h2>
+<br><br><br>
+<h2 style="font-family: Times New Roman; font-size: 35pt; color: #66ff66;"><b>9500+</b></h2>
+
+<h2 style="font-family: Times New Roman; font-size: 20pt; color: #66ff66;"><b>Glorious Alumni</b></h2>
+<br>
+<button class="button button3" onclick="document.location='form.html'"> <h1 class="price">Enroll Now</h1></button>
+<br><br><br>
+</center>
+<div class="uc-body">
+<div class="uc-body-content">
+
+<div class="listing-description">
+<h4>Description</h4>
+<br>
+<p id="demo" style="font-family: Times New Roman; font-size: 14pt; color: #800000;"><b>Syllabus<br>-<br>SELECT ANY COURSE.</b></p>
+</div>
+<div class="listing-features">
+<h4>SOFTWARE COURSES</h4>
+<br>
+<ul class="feature-bullets">
+<li><p onclick="tally()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>TALLY ERP </p></li>
+<li><p onclick="cb()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>COMPUTER BASIC</p></li>
+<li><p onclick="dpt()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>D.T.P</p></li>
+<li><p onclick="ct()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>COMPUTER TYPING<br>(HINDI & ENGLISH)</p></li>
+<li><p onclick="cb()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>DCA</p></li>
+<li><p onclick="tally()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>ITR / GST RETURNS</p></li>
+<li><p onclick="dpt()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>ADVANCE EXCLE</p> </li>
+<li><p onclick="adca()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>ADCA</p></li>
+<li><p onclick="ccc()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>CCC</p></li>
+<li><p onclick="hd()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>COMPUTER HARDWARE</p></li>
+<li><p onclick="dm()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>DIGITAL MARKETING</p></li>
+<li><p onclick="sp()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>SPOKEN ENGLISH</p></li>
+<li><p onclick="sp()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>STENOGRAPHY<br>(HINDI & ENGLISH)</li>
+
+
+</ul>
+</div>
+
+<div class="listing-features">
+<h4>LANGUAGE COURSES</h4>
+<br>
+<ul class="feature-bullets">
+<li><p onclick="c()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>C</p></li>
+<li><p onclick="cpp()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>C++</p></li>
+<li><p onclick="java()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>JAVA</p></li>
+<li><p onclick="python()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>PYTHON</p></li>
+<li><p onclick="android()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>ANDRIOD</p></li>
+<li><p onclick="react()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>REACT</p></li>
+<li><i class="fa fa-check"></i>NODE</li>
+<li><i class="fa fa-check"></i>JSON</li>
+<li><i class="fa fa-check"></i>DJANGO</li>
+<li><i class="fa fa-check"></i>MONGO DB</li>
+<li><p onclick="net()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>.NET</p></li>
+<li><p onclick="js()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>JAVA SCRIPT</p></li>
+<li><p onclick="web()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>WEB DESIGNING</p></li>
+<li><p onclick="sql()" style="font-family: Times New Roman; font-size: 14pt;"><i class="fa fa-check"></i>SQL</p></li>
+<li><i class="fa fa-check"></i>MACHINE LEARNING</li>
+
+</ul>
+</div>
+
+
+
+
+</div>
+</div>
+
+<div class="uc-options">
+<div class="uc-options-content">
+<hr style="margin-bottom:20px;">
+<h4>Additional Options</h4>
+<div class="additional-options">
+
+<div class="options-box">
+<ul class="option-bullets">
+<li><i class="fas fa-snowflake"></i><strong>Seminar</strong> <br>...</li>
+<li><i class="fas fa-snowflake"></i><strong>Pesonality Development Classes</strong> <br>...</li>
+<li><i class="fas fa-snowflake"></i><strong>Business Oriented Program</strong> <br>...</li>
+<li><i class="fas fa-snowflake"></i><strong>Internship</strong> <br> ...</li>
+<li><i class="fas fa-snowflake"></i><strong>Placement</strong> <br> ...</li>
+</ul>
+</div>
+
+<div class="options-box">
+<ul class="option-bullets">
+
+<li><i class="fas fa-door-open"></i><strong>Free Courses</strong> <br>...</li>
+<li><i class="fas fa-door-closed"></i><strong>Personal Training</strong> <br>...</li>
+<li><i class="fas fa-wheelchair"></i><strong>CSR Work</strong> <br>Like- Blood Camp , Safai Abhiyan</li>
+</ul>
+</div>
+
+
+
+</div>
+
+<div class="not-listed">
+<ul class="option-bullets">
+<li></i> <strong>Need Something That's Not Listed.</strong> JUST ASK US...</li>
+
+</ul>
+</div>
+<hr style="margin-bottom:20px;">
+</div>
+
+
+<div class="uc-terms-container">
+<div class="uc-terms-grid">
+<div><div class="uc-terms-block1">
+<i class="far fa-comments"></i>
+<h5>Contact Us</h5>  
+<p class="terms-contact"><strong>H.O. : </strong>
+
+61-A, Tyagi Market, Khanna Complex, PremNagar,
+	 Dehradun- 248007	
+	LANDMARK - UTTARAKHAND GRAMIN BANK
+<strong><br>B.O. :</strong> Wing No.1, Tyagi Market, PremNagar, Dehradun- 248007 
+	LANDMARK - PREMNAGAR POST OFFICE
+</p> 
+</div></div>
+
+<div><div class="uc-terms-block1">
+<img src="rating.png" height="50">
+<h5>Rate Us</h5><br>
+<p><a href="https://www.facebook.com/foundationcomputers/"><img src="fb.png" height="20px"></a><strong>foundationcomputers</strong></p>
+<p><a href="https://g.page/foundationcomputers?gm"><img src="gg.png" height="20px"></a><strong > Foundation Computers</strong></p>
+<p><a href="https://www.instagram.com/invites/contact/?i=164zvjj5rcyt8&utm_content=7l4ajz1"><img src="int.png" height="20px"></a><strong>Foundation Computers Institute</strong></p>
+<p><img src="gm.png" height="20px"><strong>foundationcomputerdehradun@gmail.com</strong></p>
+<p><img src="wht.png" height="20px"><strong>9897004153 </strong></p>
+<p><img src="wb.png" height="20px"><strong>8630522281 </strong></p>
+</div></div>
+
+<div><div class="uc-terms-block1">
+<i class="far fa-credit-card"></i>
+<h5>Payments</h5>
+<p>We can accept the following forms of payment;</p>
+<ul>
+<li><i class="fa fa-check"></i>Credit / Debit Card</li>
+<li><i class="fa fa-check"></i>Bank Transfer</li>
+<li><i class="fa fa-check"></i>Cash</li>
+</ul>
+</div></div>
+
+
+
+</div>  
+</div>
+
+
+
+<div class="uc-about">
+<div class="uc-about-container">
+<h4>About Us</h4><br>
+<p>we are committed to provide best computer education to every student from rural and urban areas from last 25 years. It specializes and is well-known for training students as well as working professionals in accounting, web designing, programming languages, hardware and networking. It is run and managed by a seasoned professionals who leads a team of educators and trainers having relevant domain expertise. At this institution, one can get trained in the subject of their choice by opting from a wide range of courses. These easy-to-follow courses are primarily aimed at students, working professionals as well as IT professionals who want to enhance their knowledge and further their career prospects. Located Tyagi Market, you can find this institution with relative ease at 61 - A in Prem Nagar, Dehradun – 248007 </p>
+<p><b>ACHIVEMENTS</b></p>
+<p>UKSDM Project (2011 –  2017), <br> 
+PMKVY Project (2015 – 2017),   <br> 
+NULAM Project (2014 - 2017),  <br> 
+SUDA Project (2015 - 2017),   <br> 
+NDLM Project (2015 – 2017),   <br> 
+CSR Project (2017-2018),    <br> 
+ POLYTECHNIC Project (2011– Till date).  
+
+</p>
+<p><strong>Come ones and join us. We will try to solve your problems. </strong></p>
+
+</div>
+</div>
+<div class="uc-photos">
+<div class="uc-about-container">
+										<a href="picture2.jpg"><img src="picture2.jpg" alt=""></a>
+										<a href="picture6.jpg"><img src="picture6.jpg" alt=""></a>
+										<a href="picture3.jpg"><img src="picture3.jpg" alt=""></a>
+										<a href="picture4.jpg"><img src="picture4.jpg" alt=""></a>
+										<a href="picture5.jpg"><img src="picture5.jpg" alt=""></a>
+										<a href="picture2.jpg"><img src="picture2.jpg" alt=""></a>
+										<a href="picture2.JPG"><img src="picture2.JPG" alt=""></a>
+										<a href="picture6.JPG"><img src="picture6.JPG" alt=""></a>
+										<a href="picture1.png"><img src="picture1.png" width="100%" height="400px" alt=""></a>
+
+</div>
+</div>
+
+<div class="uc-products-container">
+<center><h4>ASSOCIATED BY</h4></center>
+<div class="uc-products-grid">
+<div><div class="uc-products-block1">
+<img class="uc-product-icon" src="Picture2.png">
+<p>GOVT. GIRLS  Polytechnic, Suddhowala.</p>
+</div></div>
+<div><div class="uc-products-block1">
+<img class="uc-product-icon" src="Picture3.png">
+<p>N.S.D.C</p>
+</div></div>
+<div><div class="uc-products-block1">
+<img class="uc-product-icon" src="Picture4.png">
+<p>MKCL</p>
+</div></div>
+<div><div class="uc-products-block1">
+<img class="uc-product-icon" src="Picture5.png">
+<p>Uttarakhand Development Skill Society</p>
+</div></div>
+<div><div class="uc-products-block1">
+<img class="uc-product-icon" src="Picture6.png">
+<p>Skill India</p>
+</div></div>
+
+</div>  
+</div>
+
+
+
+
+
+<div class="uc-footer">
+<div class="uc-footer-container">
+<div class="uc-footer-logo-box">
+<img class="uc-logo-footer" src="fci%20.jpg">
+</div>
+<div class="uc-footer-address-box">
+<h5>Foundation Computer Institute</h5>
+Dehradun- 248007,<br>PremNagar,<br>Khanna Complex,<br>Tyagi Market,<br>61-A
+
+
+
+</div>
+<div class="uc-footer-contact-box">
+<p><i class="fas fa-phone-alt"></i><span class="uc-tel">+91 8630522281</span></p>
+<p><i class="fas fa-mobile-alt"></i><span class="uc-tel mobile">+91 9897004153</span></p>
+<p><span class="uc-email">foundationcomputerdehradun@gmail.com</span></p>
+<p><span span="" class="uc-email"><strong>foundationcomputer</strong></span></p>
+</div>
+</div></div></body></html>
